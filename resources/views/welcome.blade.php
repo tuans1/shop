@@ -15,11 +15,6 @@
 </head>
 
 <body class="antialiased">
-
-    <p> dawng anh quan</p>
-    <a href="/product">dadadufhuig
-    </a>
-    
 </body>
 
 </html>
