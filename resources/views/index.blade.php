@@ -50,9 +50,9 @@
 					<div class="account pull-right">
 						<ul class="user-menu">				
 							<li><a href="#">Tài khoản</a></li>
-							<li><a href="cart.html">Giỏ hàng</a></li>
-							<li><a href="checkout.html">Thanh toán</a></li>					
-							<li><a href="register.html">Đăng nhập</a></li>		
+							<li><a href="/cart">Giỏ hàng</a></li>
+							<li><a href="/checkout">Thanh toán</a></li>					
+							<li><a href="/register">Đăng nhập</a></li>		
 						</ul>
 					</div>
 				</div>
@@ -64,29 +64,29 @@
 					<a href="index.html" class="logo pull-left"><h4 class="title">ILAPTOP </h4></a>
 					<nav id="menu" class="pull-right">
 						<ul>
-							<li><a href="./products.html">Hãng sản xuất</a>					
+							<li><a href="/products">Hãng sản xuất</a>					
 								<ul>
-									<li><a href="./products.html">Apple</a></li>									
-									<li><a href="./products.html">Dell</a></li>
-									<li><a href="./products.html">Asus</a></li>	
-									<li><a href="./products.html">HP</a></li>									
-									<li><a href="./products.html">Acer</a></li>
-									<li><a href="./products.html">Lenovo</a></li>									
+									<li><a href="/products">Apple</a></li>									
+									<li><a href="/products">Dell</a></li>
+									<li><a href="/products">Asus</a></li>	
+									<li><a href="/products">HP</a></li>									
+									<li><a href="/products">Acer</a></li>
+									<li><a href="/products">Lenovo</a></li>									
 								</ul>
 							</li>															
 	
-							<li><a href="./products.html">Loại sản phẩm</a>
+							<li><a href="/products">Loại sản phẩm</a>
 								<ul>									
-									<li><a href="./products.html">Chơi game</a></li>
-									<li><a href="./products.html">Học tập-văn phòng</a></li>
-									<li><a href="./products.html">Đồ họa-kỹ thuật</a></li>
-									<li><a href="./products.html">Cao cấp sang trọng</a></li>
+									<li><a href="/products">Chơi game</a></li>
+									<li><a href="/products">Học tập-văn phòng</a></li>
+									<li><a href="/products">Đồ họa-kỹ thuật</a></li>
+									<li><a href="/products">Cao cấp sang trọng</a></li>
 								</ul>
 							</li>			
-							<!-- <li><a href="./products.html">Man</a></li>						
-							<li><a href="./products.html">Hangbag</a></li> -->
-							<li><a href="./products.html">Bán chạy nhất</a></li>
-							<li><a href="./products.html">Sản phẩm mới</a></li>
+							<!-- <li><a href="/products">Man</a></li>						
+							<li><a href="/products">Hangbag</a></li> -->
+							<li><a href="/products">Bán chạy nhất</a></li>
+							<li><a href="/products">Sản phẩm mới</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -133,7 +133,7 @@
 							<div class="span12">
 								<h4 class="title">
 									
-									<span class="pull-left"><span class="text"><span class="line"><a href="product_detail.html"><strong>Các sản phẩm gần đây nhất</strong></a></span></span>
+									<span class="pull-left"><span class="text"><span class="line"><a href="/product_detail"><strong>Các sản phẩm gần đây nhất</strong></a></span></span>
 									</span>
 									
 									<span class="pull-right">
@@ -147,31 +147,31 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh1.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Asus K45A-VX229 (K45A-3CVX)</a><br/>
-														<a href="products.html" class="category"><p class="price">11.000.000đ</p></a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh1.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Asus K45A-VX229 (K45A-3CVX)</a><br/>
+														<a href="/products" class="category"><p class="price">11.000.000đ</p></a>
 															
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh2.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Dell Vostro 2420 (V522412)</a><br/>
-														<a href="products.html" class="category"><p class="price">12.679.000đ</p></a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh2.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Dell Vostro 2420 (V522412)</a><br/>
+														<a href="/products" class="category"><p class="price">12.679.000đ</p></a>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh3.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">HP Stream 14-ax000na 14-inch HD</a><br/>
-														<a href="products.html" class="category"><p class="price">15.679.000đ</p></a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh3.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">HP Stream 14-ax000na 14-inch HD</a><br/>
+														<a href="/products" class="category"><p class="price">15.679.000đ</p></a>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh4.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Acer Chromebook R11 CB5-132T 11.6-Inch</a><br/>
-														<a href="products.html" class="category"><p class="price">16.500.000đ</p></a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh4.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Acer Chromebook R11 CB5-132T 11.6-Inch</a><br/>
+														<a href="/products" class="category"><p class="price">16.500.000đ</p></a>
 													</div>
 												</li>
 											</ul>
@@ -180,33 +180,33 @@
 											<ul class="thumbnails">
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh16.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Know exactly</a><br/>
-														<a href="products.html" class="category">Quis nostrud</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh16.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Know exactly</a><br/>
+														<a href="/products" class="category">Quis nostrud</a>
 														<p class="price">18.500.000đ</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh11.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Ut wisi enim ad</a><br/>
-														<a href="products.html" class="category">Commodo consequat</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh11.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Ut wisi enim ad</a><br/>
+														<a href="/products" class="category">Commodo consequat</a>
 														<p class="price">16.500.000đ</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh17.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">You think water</a><br/>
-														<a href="products.html" class="category">World once</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh17.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">You think water</a><br/>
+														<a href="/products" class="category">World once</a>
 														<p class="price">16.500.000đ</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh14.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Quis nostrud exerci</a><br/>
-														<a href="products.html" class="category">Quis nostrud</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh14.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Quis nostrud exerci</a><br/>
+														<a href="/products" class="category">Quis nostrud</a>
 														<p class="price">16.500.000đ</p>
 													</div>
 												</li>																																	
@@ -218,17 +218,17 @@
 											<ul class="thumbnails">
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh18.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Know exactly</a><br/>
-														<a href="products.html" class="category">Quis nostrud</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh18.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Know exactly</a><br/>
+														<a href="/products" class="category">Quis nostrud</a>
 														<p class="price">28.500.000đ</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh9.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Ut wisi enim ad</a><br/>
-														<a href="products.html" class="category">Commodo consequat</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh9.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Ut wisi enim ad</a><br/>
+														<a href="/products" class="category">Commodo consequat</a>
 														<p class="price">19.500.000đ</p>
 													</div>
 												</li>
@@ -246,7 +246,7 @@
 							<div class="span12">
 								<h4 class="title">
 									
-									<span class="pull-left"><span class="text"><span class="line"><a href="product_detail.html"><strong>Các sản phẩm bán chạy nhất</strong></a></span></span>
+									<span class="pull-left"><span class="text"><span class="line"><a href="/product_detail"><strong>Các sản phẩm bán chạy nhất</strong></a></span></span>
 									</span>
 									
 									<span class="pull-right">
@@ -260,31 +260,31 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh5.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Asus K45A-VX229 (K45A-3CVX)</a><br/>
-														<a href="products.html" class="category"><p class="price">11.000.000đ</p></a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh5.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Asus K45A-VX229 (K45A-3CVX)</a><br/>
+														<a href="/products" class="category"><p class="price">11.000.000đ</p></a>
 															
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh6.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Dell Vostro 2420 (V522412)</a><br/>
-														<a href="products.html" class="category"><p class="price">12.679.000đ</p></a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh6.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Dell Vostro 2420 (V522412)</a><br/>
+														<a href="/products" class="category"><p class="price">12.679.000đ</p></a>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh7.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">HP Stream 14-ax000na 14-inch HD</a><br/>
-														<a href="products.html" class="category"><p class="price">15.679.000đ</p></a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh7.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">HP Stream 14-ax000na 14-inch HD</a><br/>
+														<a href="/products" class="category"><p class="price">15.679.000đ</p></a>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh8.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Acer Chromebook R11 CB5-132T 11.6-Inch</a><br/>
-														<a href="products.html" class="category"><p class="price">16.500.000đ</p></a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh8.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Acer Chromebook R11 CB5-132T 11.6-Inch</a><br/>
+														<a href="/products" class="category"><p class="price">16.500.000đ</p></a>
 													</div>
 												</li>
 											</ul>
@@ -293,33 +293,33 @@
 											<ul class="thumbnails">
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh10.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Know exactly</a><br/>
-														<a href="products.html" class="category">Quis nostrud</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh10.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Know exactly</a><br/>
+														<a href="/products" class="category">Quis nostrud</a>
 														<p class="price">18.500.000đ</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh9.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Ut wisi enim ad</a><br/>
-														<a href="products.html" class="category">Commodo consequat</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh9.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Ut wisi enim ad</a><br/>
+														<a href="/products" class="category">Commodo consequat</a>
 														<p class="price">16.500.000đ</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh11.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">You think water</a><br/>
-														<a href="products.html" class="category">World once</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh11.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">You think water</a><br/>
+														<a href="/products" class="category">World once</a>
 														<p class="price">16.500.000đ</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh12.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Quis nostrud exerci</a><br/>
-														<a href="products.html" class="category">Quis nostrud</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh12.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Quis nostrud exerci</a><br/>
+														<a href="/products" class="category">Quis nostrud</a>
 														<p class="price">16.500.000đ</p>
 													</div>
 												</li>																																	
@@ -331,17 +331,17 @@
 											<ul class="thumbnails">
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh13.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Know exactly</a><br/>
-														<a href="products.html" class="category">Quis nostrud</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh13.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Know exactly</a><br/>
+														<a href="/products" class="category">Quis nostrud</a>
 														<p class="price">28.500.000đ</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh14.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Ut wisi enim ad</a><br/>
-														<a href="products.html" class="category">Commodo consequat</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh14.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Ut wisi enim ad</a><br/>
+														<a href="/products" class="category">Commodo consequat</a>
 														<p class="price">19.500.000đ</p>
 													</div>
 												</li>
@@ -359,7 +359,7 @@
 							<div class="span12">
 								<h4 class="title">
 									
-									<span class="pull-left"><span class="text"><span class="line"><a href="product_detail.html"><strong>Các sản phẩm được xem nhiều nhất</strong></a></span></span>
+									<span class="pull-left"><span class="text"><span class="line"><a href="/product_detail"><strong>Các sản phẩm được xem nhiều nhất</strong></a></span></span>
 									</span>
 									
 									<span class="pull-right">
@@ -373,31 +373,31 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh15.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Asus K45A-VX229 (K45A-3CVX)</a><br/>
-														<a href="products.html" class="category"><p class="price">11.000.000đ</p></a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh15.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Asus K45A-VX229 (K45A-3CVX)</a><br/>
+														<a href="/products" class="category"><p class="price">11.000.000đ</p></a>
 															
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh11.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Dell Vostro 2420 (V522412)</a><br/>
-														<a href="products.html" class="category"><p class="price">12.679.000đ</p></a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh11.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Dell Vostro 2420 (V522412)</a><br/>
+														<a href="/products" class="category"><p class="price">12.679.000đ</p></a>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh12.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">HP Stream 14-ax000na 14-inch HD</a><br/>
-														<a href="products.html" class="category"><p class="price">15.679.000đ</p></a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh12.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">HP Stream 14-ax000na 14-inch HD</a><br/>
+														<a href="/products" class="category"><p class="price">15.679.000đ</p></a>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh13.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Acer Chromebook R11 CB5-132T 11.6-Inch</a><br/>
-														<a href="products.html" class="category"><p class="price">16.500.000đ</p></a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh13.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Acer Chromebook R11 CB5-132T 11.6-Inch</a><br/>
+														<a href="/products" class="category"><p class="price">16.500.000đ</p></a>
 													</div>
 												</li>
 											</ul>
@@ -406,33 +406,33 @@
 											<ul class="thumbnails">
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh6.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Know exactly</a><br/>
-														<a href="products.html" class="category">Quis nostrud</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh6.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Know exactly</a><br/>
+														<a href="/products" class="category">Quis nostrud</a>
 														<p class="price">18.500.000đ</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh9.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Ut wisi enim ad</a><br/>
-														<a href="products.html" class="category">Commodo consequat</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh9.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Ut wisi enim ad</a><br/>
+														<a href="/products" class="category">Commodo consequat</a>
 														<p class="price">16.500.000đ</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh7.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">You think water</a><br/>
-														<a href="products.html" class="category">World once</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh7.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">You think water</a><br/>
+														<a href="/products" class="category">World once</a>
 														<p class="price">16.500.000đ</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh11.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Quis nostrud exerci</a><br/>
-														<a href="products.html" class="category">Quis nostrud</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh11.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Quis nostrud exerci</a><br/>
+														<a href="/products" class="category">Quis nostrud</a>
 														<p class="price">16.500.000đ</p>
 													</div>
 												</li>																																	
@@ -444,17 +444,17 @@
 											<ul class="thumbnails">
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh10.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Know exactly</a><br/>
-														<a href="products.html" class="category">Quis nostrud</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh10.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Know exactly</a><br/>
+														<a href="/products" class="category">Quis nostrud</a>
 														<p class="price">28.500.000đ</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh13.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Ut wisi enim ad</a><br/>
-														<a href="products.html" class="category">Commodo consequat</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh13.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Ut wisi enim ad</a><br/>
+														<a href="/products" class="category">Commodo consequat</a>
 														<p class="price">19.500.000đ</p>
 													</div>
 												</li>
@@ -472,7 +472,7 @@
 							<div class="span12">
 								<h4 class="title">
 									
-									<span class="pull-left"><span class="text"><span class="line"><a href="product_detail.html"><strong>Các sản phẩm khác</strong></a></span></span>
+									<span class="pull-left"><span class="text"><span class="line"><a href="/product_detail"><strong>Các sản phẩm khác</strong></a></span></span>
 									</span>
 									
 									<span class="pull-right">
@@ -486,31 +486,31 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh24.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Asus K45A-VX229 (K45A-3CVX)</a><br/>
-														<a href="products.html" class="category"><p class="price">11.000.000đ</p></a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh24.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Asus K45A-VX229 (K45A-3CVX)</a><br/>
+														<a href="/products" class="category"><p class="price">11.000.000đ</p></a>
 															
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh23.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Dell Vostro 2420 (V522412)</a><br/>
-														<a href="products.html" class="category"><p class="price">12.679.000đ</p></a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh23.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Dell Vostro 2420 (V522412)</a><br/>
+														<a href="/products" class="category"><p class="price">12.679.000đ</p></a>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh22.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">HP Stream 14-ax000na 14-inch HD</a><br/>
-														<a href="products.html" class="category"><p class="price">15.679.000đ</p></a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh22.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">HP Stream 14-ax000na 14-inch HD</a><br/>
+														<a href="/products" class="category"><p class="price">15.679.000đ</p></a>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh21.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Acer Chromebook R11 CB5-132T 11.6-Inch</a><br/>
-														<a href="products.html" class="category"><p class="price">16.500.000đ</p></a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh21.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Acer Chromebook R11 CB5-132T 11.6-Inch</a><br/>
+														<a href="/products" class="category"><p class="price">16.500.000đ</p></a>
 													</div>
 												</li>
 											</ul>
@@ -519,33 +519,33 @@
 											<ul class="thumbnails">
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh20.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Know exactly</a><br/>
-														<a href="products.html" class="category">Quis nostrud</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh20.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Know exactly</a><br/>
+														<a href="/products" class="category">Quis nostrud</a>
 														<p class="price">18.500.000đ</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh13.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Ut wisi enim ad</a><br/>
-														<a href="products.html" class="category">Commodo consequat</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh13.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Ut wisi enim ad</a><br/>
+														<a href="/products" class="category">Commodo consequat</a>
 														<p class="price">16.500.000đ</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh14.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">You think water</a><br/>
-														<a href="products.html" class="category">World once</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh14.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">You think water</a><br/>
+														<a href="/products" class="category">World once</a>
 														<p class="price">16.500.000đ</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/anh19.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Quis nostrud exerci</a><br/>
-														<a href="products.html" class="category">Quis nostrud</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/anh19.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Quis nostrud exerci</a><br/>
+														<a href="/products" class="category">Quis nostrud</a>
 														<p class="price">16.500.000đ</p>
 													</div>
 												</li>																																	
@@ -557,17 +557,17 @@
 											<ul class="thumbnails">
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/laptop4.png" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Know exactly</a><br/>
-														<a href="products.html" class="category">Quis nostrud</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/laptop4.png" alt="" /></a></p>
+														<a href="/product_detail" class="title">Know exactly</a><br/>
+														<a href="/products" class="category">Quis nostrud</a>
 														<p class="price">28.500.000đ</p>
 													</div>
 												</li>
 												<li class="span3">
 													<div class="product-box">
-														<p><a href="product_detail.html"><img src="themes/images/cloth/laptop2.jpg" alt="" /></a></p>
-														<a href="product_detail.html" class="title">Ut wisi enim ad</a><br/>
-														<a href="products.html" class="category">Commodo consequat</a>
+														<p><a href="/product_detail"><img src="themes/images/cloth/laptop2.jpg" alt="" /></a></p>
+														<a href="/product_detail" class="title">Ut wisi enim ad</a><br/>
+														<a href="/products" class="category">Commodo consequat</a>
 														<p class="price">19.500.000đ</p>
 													</div>
 												</li>
