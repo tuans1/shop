@@ -23,7 +23,10 @@ Route::post('/sanpham/create', [ProductController::class, 'create'])->name('crea
 Route::post('/sanpham/update', [ProductController::class, 'update'])->name('update'); // chạy hàm update trong ProductController
 
 Route::get('/sanpham1', [CategoryController::class, 'index']); // loai sp
+Route::post('/sanpham1/create', [CategoryController::class, 'create']); // chạy hàm create trong ProductController
+Route::post('/sanpham1/update', [CategoryController::class, 'update']);
 Route::get('/sanpham2', [ProducerController::class, 'index']); // hang sx
+
 
 Route::get('/index', function () {
     return view('index');
