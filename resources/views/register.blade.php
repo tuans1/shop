@@ -49,9 +49,9 @@
 					<div class="account pull-right">
 						<ul class="user-menu">				
 							<li><a href="#">Tài khoản</a></li>
-							<li><a href="cart.html">Giỏ hàng</a></li>
-							<li><a href="checkout.html">Thanh toán</a></li>					
-							<li><a href="register.html">Đăng nhập</a></li>		
+							<li><a href="cart">Giỏ hàng</a></li>
+							<li><a href="checkout">Thanh toán</a></li>					
+							<li><a href="register">Đăng nhập</a></li>		
 						</ul>
 					</div>
 				</div>
@@ -60,32 +60,32 @@
 		<div id="wrapper" class="container">
 			<section class="navbar main-menu">
 				<div class="navbar-inner main-menu">				
-					<a href="index.html" class="logo pull-left"><h4 class="title">ILAPTOP </h4></a>
+					<a href="index" class="logo pull-left"><h4 class="title">ILAPTOP </h4></a>
 					<nav id="menu" class="pull-right">
 						<ul>
-							<li><a href="./products.html">Hãng sản xuất</a>					
+							<li><a href="/products">Hãng sản xuất</a>					
 								<ul>
-									<li><a href="./products.html">Apple</a></li>									
-									<li><a href="./products.html">Dell</a></li>
-									<li><a href="./products.html">Asus</a></li>	
-									<li><a href="./products.html">HP</a></li>									
-									<li><a href="./products.html">Acer</a></li>
-									<li><a href="./products.html">Lenovo</a></li>									
+									<li><a href="/products">Apple</a></li>									
+									<li><a href="/products">Dell</a></li>
+									<li><a href="/products">Asus</a></li>	
+									<li><a href="/products">HP</a></li>									
+									<li><a href="/products">Acer</a></li>
+									<li><a href="/products">Lenovo</a></li>									
 								</ul>
 							</li>															
 	
-							<li><a href="./products.html">Loại sản phẩm</a>
+							<li><a href="/products">Loại sản phẩm</a>
 								<ul>									
-									<li><a href="./products.html">Chơi game</a></li>
-									<li><a href="./products.html">Học tập-văn phòng</a></li>
-									<li><a href="./products.html">Đồ họa-kỹ thuật</a></li>
-									<li><a href="./products.html">Cao cấp sang trọng</a></li>
+									<li><a href="/products">Chơi game</a></li>
+									<li><a href="/products">Học tập-văn phòng</a></li>
+									<li><a href="/products">Đồ họa-kỹ thuật</a></li>
+									<li><a href="/products">Cao cấp sang trọng</a></li>
 								</ul>
 							</li>			
-							<!-- <li><a href="./products.html">Man</a></li>						
-							<li><a href="./products.html">Hangbag</a></li> -->
-							<li><a href="./products.html">Bán chạy nhất</a></li>
-							<li><a href="./products.html">Sản phẩm mới</a></li>
+							<!-- <li><a href="/products">Man</a></li>						
+							<li><a href="/products">Hangbag</a></li> -->
+							<li><a href="/products">Bán chạy nhất</a></li>
+							<li><a href="/products">Sản phẩm mới</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -133,7 +133,7 @@
 				<div class="row">
 					<div class="span5">					
 						<h4 class="title"><span class="text"><strong>Đăng</strong> nhập</span></h4>
-						<form action="customer.html" method="post">
+						<form action="customer" method="post">
 							<input type="hidden" name="next" value="/">
 							<fieldset>
 								<div class="control-group">
@@ -162,7 +162,7 @@
 					</div>
 					<div class="span7">					
 						<h4 class="title"><span class="text"><strong>Đăng kí</strong> Form</span></h4>
-						<form action="newcustomer.html" method="post" class="form-stacked">
+						<form action="newcustomer" method="post" class="form-stacked">
 							<fieldset>
 								<div class="control-group">
 									<label class="control-label">Tên đăng nhập</label>
@@ -198,11 +198,11 @@
 					<div class="span3">
 						<h4>Điều Hướng</h4>
 						<ul class="nav">
-							<li><a href="./index.html">Trang chủ</a></li>  
-							<li><a href="./about.html">Thông tin</a></li>
-							<li><a href="./contact.html">Liên hệ</a></li>
-							<li><a href="./cart.html">Giỏ hàng</a></li>
-							<li><a href="./register.html">Đăng nhập</a></li>							
+							<li><a href="/index">Trang chủ</a></li>  
+							<li><a href="/about">Thông tin</a></li>
+							<li><a href="/contact">Liên hệ</a></li>
+							<li><a href="/cart">Giỏ hàng</a></li>
+							<li><a href="/register">Đăng nhập</a></li>							
 						</ul>					
 					</div>
 					<div class="span4">
@@ -255,7 +255,7 @@
 			});
 			$(document).ready(function() {
 				$('#checkout').click(function (e) {
-					document.location.href = "checkout.html";
+					document.location.href = "checkout";
 				})
 			});
 		</script>	
@@ -267,7 +267,7 @@
 				if(username=="DHP" && password=="DHP")
 				{
 					alert("Login successfully!");
-					window.location="/index.html";
+					window.location="/index";
 					return false;
 				}
 				else{
@@ -288,7 +288,7 @@
 				if(username=="DHP" && password=="DHP" && email=="123@gmail.com")
 				{
 					alert("Create account successfully!");
-					window.location="index.html";
+					window.location="index";
 					return false;
 				}
 				else{

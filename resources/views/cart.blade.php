@@ -49,9 +49,9 @@
 					<div class="account pull-right">
 						<ul class="user-menu">				
 							<li><a href="#">Tài Khoản</a></li>
-							<li><a href="cart.html"> Giỏ hàng </a></li>
-							<li><a href="checkout.html"> Thanh toán </a></li>					
-							<li><a href="register.html"> Đăng nhập </a></li>			
+							<li><a href="/cart"> Giỏ hàng </a></li>
+							<li><a href="/checkout"> Thanh toán </a></li>					
+							<li><a href="/register"> Đăng nhập </a></li>			
 						</ul>
 					</div>
 				</div>
@@ -60,29 +60,29 @@
 		<div id="wrapper" class="container">
 			<section class="navbar main-menu">
 				<div class="navbar-inner main-menu">				
-					<a href="index.html" class="logo pull-left"><h4 class="title">ILAPTOP</h4> </a>
+					<a href="index" class="logo pull-left"><h4 class="title">ILAPTOP</h4> </a>
 					<nav id="menu" class="pull-right">
 						<ul>
-							<li><a href="./products.html">Hãng sản xuất</a>					
+							<li><a href="/products">Hãng sản xuất</a>					
 								<ul>
-									<li><a href="./products.html">Apple</a></li>									
-									<li><a href="./products.html">Dell</a></li>
-									<li><a href="./products.html">Asus</a></li>	
-									<li><a href="./products.html">HP</a></li>									
-									<li><a href="./products.html">Acer</a></li>
-									<li><a href="./products.html">Lenovo</a></li>									
+									<li><a href="/products">Apple</a></li>									
+									<li><a href="/products">Dell</a></li>
+									<li><a href="/products">Asus</a></li>	
+									<li><a href="/products">HP</a></li>									
+									<li><a href="/products">Acer</a></li>
+									<li><a href="/products">Lenovo</a></li>									
 								</ul>
 							</li>																
-							<li><a href="./products.html">Loại sản phẩm</a>
+							<li><a href="/products">Loại sản phẩm</a>
 								<ul>									
-									<li><a href="./products.html">Chơi game</a></li>
-									<li><a href="./products.html">Học tập-văn phòng</a></li>
-									<li><a href="./products.html">Đồ họa-kỹ thuật</a></li>
-									<li><a href="./products.html">Cao cấp sang trọng</a></li>
+									<li><a href="/products">Chơi game</a></li>
+									<li><a href="/products">Học tập-văn phòng</a></li>
+									<li><a href="/products">Đồ họa-kỹ thuật</a></li>
+									<li><a href="/products">Cao cấp sang trọng</a></li>
 								</ul>
 							</li>			
-							<li><a href="./products.html">Bán chạy nhất</a></li>
-							<li><a href="./products.html">Sản phẩm mới</a></li>
+							<li><a href="/products">Bán chạy nhất</a></li>
+							<li><a href="/products">Sản phẩm mới</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -110,7 +110,7 @@
 							<tbody>
 								<tr>
 									<td><input type="checkbox" value="option1"></td>
-									<td><a href="product_detail.html"><img alt="" src="themes/images/cloth/anh2.png"></a></td>
+									<td><a href="/product_detail"><img alt="" src="themes/images/cloth/anh2.png"></a></td>
 									<td>Macbook Air 13 256GB MQD42SA/A (2017)</td>
 									<td><input type="text" placeholder="1" class="input-mini"></td>
 									<td>28.999.000đ</td>
@@ -118,7 +118,7 @@
 								</tr>			  
 								<tr>
 									<td><input type="checkbox" value="option1"></td>
-									<td><a href="product_detail.html"><img alt="" src="themes/images/cloth/anh17.png"></a></td>
+									<td><a href="/product_detail"><img alt="" src="themes/images/cloth/anh17.png"></a></td>
 									<td>Laptop HP Envy 13 ad140TU i7 8550U/8GB/256GB/Win10/(3CH47PA)</td>
 									<td><input type="text" placeholder="2" class="input-mini"></td>
 									<td>20.400.000đ</td>
@@ -126,7 +126,7 @@
 								</tr>
 								<tr>
 									<td><input type="checkbox" value="option1"></td>
-									<td><a href="product_detail.html"><img alt="" src="themes/images/cloth/anh24.png"></a></td>
+									<td><a href="/product_detail"><img alt="" src="themes/images/cloth/anh24.png"></a></td>
 									<td>Laptop Lenovo Ideapad 720s-13IKB 81BV0062VN (i7-8550U) </td>
 									<td><input type="text" placeholder="1" class="input-mini"></td>
 									<td>23.990.000đ</td>
@@ -170,19 +170,19 @@
 						<div class="block">	
 							<ul class="nav nav-list">
 								<li class="nav-header">Laptop khác</li>
-								<li><a href="products.html">LapTop Dell</a></li>
-								<li class="active"><a href="products.html">Laptop Apple</a></li>
-								<li><a href="products.html">Laptop ASUS</a></li>
-								<li><a href="products.html">Laptop HP  </a></li>
-								<li><a href="products.html">Laptop Lenovo  </a></li>
-								<li><a href="products.html">LapTop Acer  </a></li>
+								<li><a href="/products">LapTop Dell</a></li>
+								<li class="active"><a href="/products">Laptop Apple</a></li>
+								<li><a href="/products">Laptop ASUS</a></li>
+								<li><a href="/products">Laptop HP  </a></li>
+								<li><a href="/products">Laptop Lenovo  </a></li>
+								<li><a href="/products">LapTop Acer  </a></li>
 							</ul>
 							<br/>
 							<ul class="nav nav-list below">
 								<li class="nav-header">Loại Laptop</li>
-								<li><a href="products.html">Chơi Game</a></li>
-								<li><a href="products.html">Tin học - văn phòng</a></li>
-								<li><a href="products.html">Đồ họa</a></li>
+								<li><a href="/products">Chơi Game</a></li>
+								<li><a href="/products">Tin học - văn phòng</a></li>
+								<li><a href="/products">Đồ họa</a></li>
 							</ul>
 						</div>
 						<div class="block">
@@ -199,8 +199,8 @@
 											<li class="span3">
 												<div class="product-box">
 													<span class="sale_tag"></span>												
-													<a href="product_detail.html"><img alt="" src="themes/images/cloth/anh13.png"></a><br/>
-													<a href="product_detail.html" class="title">Asus X441NA N4200/4GB/500GB/Win10</a><br/>
+													<a href="/product_detail"><img alt="" src="themes/images/cloth/anh13.png"></a><br/>
+													<a href="/product_detail" class="title">Asus X441NA N4200/4GB/500GB/Win10</a><br/>
 													<a href="#" class="category">ASUS Laptop</a>
 													<p class="price">7.490.000đ</p>
 												</div>
@@ -211,8 +211,8 @@
 										<ul class="thumbnails listing-products">
 											<li class="span3">
 												<div class="product-box">												
-													<a href="product_detail.html"><img alt="" src="themes/images/cloth/anh18.png"></a><br/>
-													<a href="product_detail.html" class="title">Laptop HP 15 bs161TU i5 8250U/4GB/1TB/Win10/</a><br/>
+													<a href="/product_detail"><img alt="" src="themes/images/cloth/anh18.png"></a><br/>
+													<a href="/product_detail" class="title">Laptop HP 15 bs161TU i5 8250U/4GB/1TB/Win10/</a><br/>
 													<a href="#" class="category">HP Laptop</a>
 													<p class="price">13.990.000đ</p>
 												</div>
@@ -230,11 +230,11 @@
 					<div class="span3">
 						<h4>Điều Hướng</h4>
 						<ul class="nav">
-							<li><a href="./index.html">Trang chủ</a></li>  
-							<li><a href="./about.html">Thông tin</a></li>
-							<li><a href="./contact.html">Liên hệ</a></li>
-							<li><a href="./cart.html">Giỏ hàng</a></li>
-							<li><a href="./register.html">Đăng nhập</a></li>							
+							<li><a href="/index">Trang chủ</a></li>  
+							<li><a href="/about">Thông tin</a></li>
+							<li><a href="/contact">Liên hệ</a></li>
+							<li><a href="/cart">Giỏ hàng</a></li>
+							<li><a href="/register">Đăng nhập</a></li>							
 						</ul>					
 					</div>
 					<div class="span4">
@@ -274,7 +274,7 @@
 			<script>
 				$(document).ready(function() {
 					$('#checkout').click(function (e) {
-						document.location.href = "checkout.html";
+						document.location.href = "checkout";
 					})
 				});
 			</script>		

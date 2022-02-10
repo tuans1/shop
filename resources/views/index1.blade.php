@@ -66,7 +66,7 @@
 				</div>
 <!--heder end here-->
 		<ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index1.html">Trang chủ</a> <i class="fa fa-angle-right"></i></li>
+                <li class="breadcrumb-item"><a href="index1">Trang chủ</a> <i class="fa fa-angle-right"></i></li>
             </ol>
 
 <!-- grids -->
@@ -90,11 +90,11 @@
 						  	</div>
 						  	<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
 						  		<div class="list-group">
-								    <a href="index1.html" class="list-group-item active">Trang chủ</a>
-								    <a href="sanpham.html" class="list-group-item">Quản lý sản phẩm</a>
-								    <a href="sanpham1.html" class="list-group-item">Quản lý loại sản phẩm</a>
-								    <a href="sanpham2.html" class="list-group-item">Quản lý nhà sản xuất</a>
-								    <a href="donhang.html" class="list-group-item">Quản lý đơn hàng</a>
+								    <a href="index1" class="list-group-item active">Trang chủ</a>
+								    <a href="sanpham" class="list-group-item">Quản lý sản phẩm</a>
+								    <a href="sanpham1" class="list-group-item">Quản lý loại sản phẩm</a>
+								    <a href="sanpham2" class="list-group-item">Quản lý nhà sản xuất</a>
+								    <a href="donhang" class="list-group-item">Quản lý đơn hàng</a>
 								  </div>
 						  	</div>
 						  	<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
@@ -162,26 +162,26 @@
 						<div style="border-top:1px ridge rgba(255, 255, 255, 0.15)"></div>
                            <div class="menu">
 									<ul id="menu" >
-										<li><a href="index1.html"><i class="fa fa-tachometer"></i> <span>Trang chủ</span><div class="clearfix"></div></a></li>
+										<li><a href="index1"><i class="fa fa-tachometer"></i> <span>Trang chủ</span><div class="clearfix"></div></a></li>
 										
 										
-										 <li id="menu-academico" ><a href="donhang.html"><i class="fa fa-envelope nav_icon"></i><span>Đơn hàng</span><div class="clearfix"></div></a></li>
-									<!-- <li><a href="gallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i><span>Gallery</span><div class="clearfix"></div></a></li> -->
+										 <li id="menu-academico" ><a href="donhang"><i class="fa fa-envelope nav_icon"></i><span>Đơn hàng</span><div class="clearfix"></div></a></li>
+									<!-- <li><a href="gallery"><i class="fa fa-picture-o" aria-hidden="true"></i><span>Gallery</span><div class="clearfix"></div></a></li> -->
 									
 									 <li id="menu-academico" ><a href="#"><i class="fa fa-list-ul" aria-hidden="true"></i><span>Sản phẩm</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
 										   <ul id="menu-academico-sub" >
-										   <li id="menu-academico-avaliacoes" ><a href="sanpham.html">Quản lý sản phẩm</a></li>
-											<li id="menu-academico-avaliacoes" ><a href="sanpham1.html">Loại sản phẩm</a></li>
-											<li id="menu-academico-avaliacoes" ><a href="sanpham2.html">Nhà sản xuất</a></li>
+										   <li id="menu-academico-avaliacoes" ><a href="sanpham">Quản lý sản phẩm</a></li>
+											<li id="menu-academico-avaliacoes" ><a href="sanpham1">Loại sản phẩm</a></li>
+											<li id="menu-academico-avaliacoes" ><a href="sanpham2">Nhà sản xuất</a></li>
 										  </ul>
 										</li>
 									
 
 									  <li id="menu-academico" ><a href="#"><i class="fa fa-file-text-o"></i>  <span>Khác</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
 										 <ul id="menu-academico-sub" >
-											<li id="menu-academico-boletim" ><a href="calendar.html">Lịch</a></li>
-											<!-- <li id="menu-academico-avaliacoes" ><a href="signin.html">Đăng nhập</a></li>
-											<li id="menu-academico-avaliacoes" ><a href="signup.html">Đăng ký</a></li> -->
+											<li id="menu-academico-boletim" ><a href="calendar">Lịch</a></li>
+											<!-- <li id="menu-academico-avaliacoes" ><a href="signin">Đăng nhập</a></li>
+											<li id="menu-academico-avaliacoes" ><a href="signup">Đăng ký</a></li> -->
 											
 
 										  </ul>

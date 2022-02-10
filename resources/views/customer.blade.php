@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>New Customer</title>
+	<title>Customer</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<!--[if ie]><meta content='IE=8' http-equiv='X-UA-Compatible'/><![endif]-->
@@ -36,8 +36,8 @@
 						<div class="input-group">
 							<input type="text" class="search-query form-control input-group" Placeholder="My laptop.">
 							<span class="input-group-btn">
-								<button class="btn btn-primary rounded-circle btnpro" id="btn-search" type="button">
-									<span class=" fas fa-search"></span>
+								<button class="btn btn-primary rounded-circle btnpro" type="button" id="btn-search">
+									<span class="fas fa-search"></span>
 								</button>
 							</span>
 							
@@ -47,9 +47,9 @@
 				<div class="span8">
 					<div class="account pull-right">
 						<ul class="user-menu">				
-							<li><a href="cart.html">Giỏ hàng</a></li>
-							<li><a href="checkout.html">Thanh toán</a></li>					
-							<li><a href="customer.html">DPH</a></li>		
+							<li><a href="cart">Giỏ hàng</a></li>
+							<li><a href="checkout">Thanh toán</a></li>					
+							<li><a href="customer">DPH</a></li>		
 						</ul>
 					</div>
 				</div>
@@ -58,32 +58,32 @@
 		<div id="wrapper" class="container">
 			<section class="navbar main-menu">
 				<div class="navbar-inner main-menu">				
-					<a href="index.html" class="logo pull-left"><h4 class="title">ILAPTOP </h4></a>
+					<a href="index" class="logo pull-left"><h4 class="title">ILAPTOP </h4></a>
 					<nav id="menu" class="pull-right">
 						<ul>
-							<li><a href="./products.html">Hãng sản xuất</a>					
+							<li><a href="/products">Hãng sản xuất</a>					
 								<ul>
-									<li><a href="./products.html">Apple</a></li>									
-									<li><a href="./products.html">Dell</a></li>
-									<li><a href="./products.html">Asus</a></li>	
-									<li><a href="./products.html">HP</a></li>									
-									<li><a href="./products.html">Acer</a></li>
-									<li><a href="./products.html">Lenovo</a></li>									
+									<li><a href="/products">Apple</a></li>									
+									<li><a href="/products">Dell</a></li>
+									<li><a href="/products">Asus</a></li>	
+									<li><a href="/products">HP</a></li>									
+									<li><a href="/products">Acer</a></li>
+									<li><a href="/products">Lenovo</a></li>									
 								</ul>
 							</li>															
-
-							<li><a href="./products.html">Loại sản phẩm</a>
+							
+							<li><a href="/products">Loại sản phẩm</a>
 								<ul>									
-									<li><a href="./products.html">Chơi game</a></li>
-									<li><a href="./products.html">Học tập-văn phòng</a></li>
-									<li><a href="./products.html">Đồ họa-kỹ thuật</a></li>
-									<li><a href="./products.html">Cao cấp sang trọng</a></li>
+									<li><a href="/products">Chơi game</a></li>
+									<li><a href="/products">Học tập-văn phòng</a></li>
+									<li><a href="/products">Đồ họa-kỹ thuật</a></li>
+									<li><a href="/products">Cao cấp sang trọng</a></li>
 								</ul>
 							</li>			
-							<!-- <li><a href="./products.html">Man</a></li>						
-								<li><a href="./products.html">Hangbag</a></li> -->
-								<li><a href="./products.html">Bán chạy nhất</a></li>
-								<li><a href="./products.html">Sản phẩm mới</a></li>
+							<!-- <li><a href="/products">Man</a></li>						
+								<li><a href="/products">Hangbag</a></li> -->
+								<li><a href="/products">Bán chạy nhất</a></li>
+								<li><a href="/products">Sản phẩm mới</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -125,41 +125,84 @@
 		</section>			
 		<br/>
 		<br/>
-		<h4><span>Cập nhật thông tin</span></h4>
 	</section>			
 	<section class="main-content">		
 		<div class="row">
 			<div class="span5">					
 				<h4 class="title"><span class="text"><strong>Thông tin</strong> cá nhân</span></h4>
-				<form action="newcustomer.html" method="post">
+				<form action="customer" method="post">
 					<input type="hidden" name="next" value="/">
 					<fieldset>
 						<div class="control-group">
 							<label class="control-label">Họ tên</label>
 							<div class="controls">
-								<input type="text" placeholder="Nhập họ tên"  class="input-xlarge" id="name" name="name" required>
+								<input type="value"  class="output-xlarge" id="name" value="Đinh Hữu Phước">
 							</div>
 						</div>
 						<div class="control-group">
 							<label class="control-label">Địa chỉ</label>
 							<div class="controls">
-								<input type="text" placeholder="Nhập địa chỉ"  class="input-xlarge" id="address" name="address" required>
+								<input type="value"  class="output-xlarge" id="address" value="TP Hồ Chí Minh" >
 							</div>
 						</div>
 						<div class="control-group">
 							<label class="control-label">Số điện thoại</label>
 							<div class="controls">
-								<input type="text" placeholder="Nhập số điện thoại" id="numberphone" class="input-xlarge" name="numberphone" required>
+								<input type="value"  class="output-xlarge" id="numberphone" value="01234567489">
 							</div>
 						</div>
 						<div class="control-group">
-							<input tabindex="3" class="btn btn-primary large" type="submit" id="submit" onclick="validate()" value="Cập nhật thông tin">
+							<input tabindex="3" class="btn btn-primary large" type="submit" id="submit" onclick="" value="Thay đổi thông tin">
 							<hr>
 						</div>
 					</fieldset>
 				</form>				
 			</div>
-
+			<div class="span7">					
+				<h4 class="title"><span class="text"><strong>Lịch sử</strong> mua hàng</span></h4>
+				<form action="newcustomer" method="post" class="form-stacked">
+					<fieldset>
+						<div class="control-group">
+							<label class="control-label"><strong>Các sản phẩm đã mua</strong> </label>
+						</div>
+						<li class="span3">
+							<div class="product-box">												
+								<a href="product_detail"><img alt="" src="themes/images/cloth/laptop1.png"></a><br/>
+								<a href="product_detail" class="title">ASUS VivoBook Swift SF315</a><br/>
+								<a href="#" class="category">i5 8250U/4GB/1TB/Win10</a>
+								<p class="price">16.990.000 đ</p>
+							</div>
+						</li>
+						<li class="span3">
+							<div class="product-box">
+								<span class="sale_tag"></span>												
+								<a href="product_detail"><img alt="" src="themes/images/cloth/laptop2.jpg"></a><br/>
+								<a href="product_detail" class="title">ASUS Vivobook Max X441UA</a><br/>
+								<a href="#" class="category">intel Core i3, RAM 4GB DDR4</a>
+								<p class="price">9.790.000 đ</p>
+							</div>
+						</li>
+						<li class="span3">
+							<div class="product-box">												
+								<span class="sale_tag"></span>
+								<a href="product_detail"><img alt="" src="themes/images/cloth/anh4.png"></a><br/>
+								<a href="product_detail" class="title">Acer Chromebook R11 CB5-132T 11.6-Inch</a><br/>
+								<a href="#" class="category">i5 8250U/4GB/1TB/Win10</a>
+								<p class="price">16.500.000 đ</p>
+							</div>
+						</li>
+						<li class="span3">
+							<div class="product-box">												
+								<a href="product_detail"><img alt="" src="themes/images/cloth/anh8.png"></a><br/>
+								<a href="product_detail" class="title">ROG ZENPHYRUS(GX501)</a><br/>
+								<a href="#" class="category">Intel Core i7-7700HQ/24GB RAM/1TB SSD PCie</a>
+								<p class="price">16.500.000 đ</p>
+							</div>
+						</li>
+					</fieldset>
+					
+				</form>					
+			</div>				
 		</div>
 	</section>			
 	<section style="background-color: #857474;" id="footer-bar">
@@ -167,17 +210,17 @@
 			<div class="span3">
 				<h4>Điều Hướng</h4>
 				<ul class="nav">
-					<li><a href="./index.html">Trang chủ</a></li>  
-					<li><a href="./about.html">Thông tin</a></li>
-					<li><a href="./contact.html">Liên hệ</a></li>
-					<li><a href="./cart.html">Giỏ hàng</a></li>
-					<li><a href="./register.html">Đăng nhập</a></li>							
+					<li><a href="/index">Trang chủ</a></li>  
+					<li><a href="/about">Thông tin</a></li>
+					<li><a href="/contact">Liên hệ</a></li>
+					<li><a href="/cart">Giỏ hàng</a></li>
+					<li><a href="/register">Đăng nhập</a></li>							
 				</ul>					
 			</div>
 			<div class="span4">
 				<h4>My Account</h4>
 				<ul class="nav">
-					<li><a href="customer.html">Tài khoản của tôi</a></li>
+					<li><a href="customer">Tài khoản của tôi</a></li>
 					<li><a href="#">Lịch sử đặt hàng</a></li>
 					<li><a href="#">Danh sách yêu thích</a></li>
 					<!-- <li><a href="#">Làm mới</a></li> -->
@@ -198,7 +241,7 @@
 							<i class="fab fa-instagram fa-lg"></i>
 						</a>
 					</div>
-
+					
 				</div>					
 			</div>	
 		</section>
@@ -207,7 +250,7 @@
 			<span>Copyright 2013 bootstrappage template  All right reserved.</span>
 		</section>
 	</div>
-	<script type="text/javascript" src="themes/js/common.js"></script>
+	<script src="themes/js/common.js"></script>
 	<script src="themes/js/jquery.flexslider-min.js"></script>
 	<script type="text/javascript">
 		$(function() {
@@ -224,35 +267,10 @@
 		});
 		$(document).ready(function() {
 			$('#checkout').click(function (e) {
-				document.location.href = "checkout.html";
+				document.location.href = "checkout";
 			})
 		});
+		
 	</script>
-	<script type="text/javascript">
-		var attempt=3;
-		function validate(){
-			var name=document.getElementById("name").value;
-			var address=document.getElementById("address").value;
-			var numberphone=document.getElementById("numberphone").value;
-			if(name!=null && address!=null && numberphone!=null )
-			{
-				alert('Update information successfully!');
-				window.location.href = "customer.html";
-				return false;
-			}
-			else{
-				attempt--;
-				alert("Fail to update");
-				return true;
-			}
-			if(attempt==0){
-				document.getElementById("name").disabled=true;
-				document.getElementById("address").disabled=true;
-				document.getElementById("numberphone").disabled=true;
-				document.getElementById("submit").disabled=true;
-				return false;
-			}
-		}
-		</script>
-	</body>
-	</html>	
+</body>
+</html>	

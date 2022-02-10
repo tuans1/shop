@@ -53,9 +53,9 @@
 					<div class="account pull-right">
 						<ul class="user-menu">				
 							<li><a href="#">Tài Khoản</a></li>
-							<li><a href="cart.html"> Giỏ hàng </a></li>
-							<li><a href="checkout.html"> Thanh toán </a></li>					
-							<li><a href="register.html"> Đăng nhập </a></li>		
+							<li><a href="cart"> Giỏ hàng </a></li>
+							<li><a href="checkout"> Thanh toán </a></li>					
+							<li><a href="register"> Đăng nhập </a></li>		
 						</ul>
 					</div>
 				</div>
@@ -64,29 +64,29 @@
 		<div id="wrapper" class="container">
 			<section class="navbar main-menu">
 				<div class="navbar-inner main-menu">				
-					<a href="index.html" class="logo pull-left"><h4 class="title">ILAPTOP</h4> </a>
+					<a href="index" class="logo pull-left"><h4 class="title">ILAPTOP</h4> </a>
 					<nav id="menu" class="pull-right">
 						<ul>
-							<li><a href="./products.html">Hãng sản xuất</a>					
+							<li><a href="/products">Hãng sản xuất</a>					
 								<ul>
-									<li><a href="./products.html">Apple</a></li>									
-									<li><a href="./products.html">Dell</a></li>
-									<li><a href="./products.html">Asus</a></li>	
-									<li><a href="./products.html">HP</a></li>									
-									<li><a href="./products.html">Acer</a></li>
-									<li><a href="./products.html">Lenovo</a></li>									
+									<li><a href="/products">Apple</a></li>									
+									<li><a href="/products">Dell</a></li>
+									<li><a href="/products">Asus</a></li>	
+									<li><a href="/products">HP</a></li>									
+									<li><a href="/products">Acer</a></li>
+									<li><a href="/products">Lenovo</a></li>									
 								</ul>
 							</li>																
-							<li><a href="./products.html">Loại sản phẩm</a>
+							<li><a href="/products">Loại sản phẩm</a>
 								<ul>									
-									<li><a href="./products.html">Chơi game</a></li>
-									<li><a href="./products.html">Học tập-văn phòng</a></li>
-									<li><a href="./products.html">Đồ họa-kỹ thuật</a></li>
-									<li><a href="./products.html">Cao cấp sang trọng</a></li>
+									<li><a href="/products">Chơi game</a></li>
+									<li><a href="/products">Học tập-văn phòng</a></li>
+									<li><a href="/products">Đồ họa-kỹ thuật</a></li>
+									<li><a href="/products">Cao cấp sang trọng</a></li>
 								</ul>
 							</li>			
-							<li><a href="./products.html">Bán chạy nhất</a></li>
-							<li><a href="./products.html">Sản phẩm mới</a></li>
+							<li><a href="/products">Bán chạy nhất</a></li>
+							<li><a href="/products">Sản phẩm mới</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -188,8 +188,8 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>												
-														<a href="product_detail.html"><img alt="" src="themes/images/cloth/laptop1.png"></a><br/>
-														<a href="product_detail.html" class="title">Asus VivoBook Swift SF315</a><br/>
+														<a href="product_detail"><img alt="" src="themes/images/cloth/laptop1.png"></a><br/>
+														<a href="product_detail" class="title">Asus VivoBook Swift SF315</a><br/>
 														<a href="#" class="category">i5 8250U/4GB/1TB/Win10</a>
 														<p class="price">16.990.000đ</p>
 													</div>
@@ -197,16 +197,16 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>												
-														<a href="product_detail.html"><img alt="" src="themes/images/cloth/laptop3.png"></a><br/>
-														<a href="product_detail.html" class="title">Asus VivoBook 5468</a><br/>
+														<a href="product_detail"><img alt="" src="themes/images/cloth/laptop3.png"></a><br/>
+														<a href="product_detail" class="title">Asus VivoBook 5468</a><br/>
 														<a href="#" class="category">Core i5 - 7200U/4GB/500GB/14 HD</a>
 														<p class="price">16.690.000đ</p>
 													</div>
 												</li>       
 												<li class="span3">
 													<div class="product-box">												
-														<a href="product_detail.html"><img alt="" src="themes/images/cloth/laptop4.png"></a><br/>
-														<a href="product_detail.html" class="title">Asus VivoBook S510UA</a><br/>
+														<a href="product_detail"><img alt="" src="themes/images/cloth/laptop4.png"></a><br/>
+														<a href="product_detail" class="title">Asus VivoBook S510UA</a><br/>
 														<a href="#" class="category">i5 8250U/4GB/1TB/Win10</a>
 														<p class="price">16.290.000đ</p>
 													</div>
@@ -218,16 +218,16 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>												
-														<a href="product_detail.html"><img alt="" src="themes/images/cloth/laptop2.jpg"></a><br/>
-														<a href="product_detail.html" class="title">Asus VivoBook ES1</a><br/>
+														<a href="product_detail"><img alt="" src="themes/images/cloth/laptop2.jpg"></a><br/>
+														<a href="product_detail" class="title">Asus VivoBook ES1</a><br/>
 														<a href="#" class="category">N3350/2GB/500GB/Win10</a>
 														<p class="price">6.290.000đ</p>
 													</div>
 												</li>       
 												<li class="span3">
 													<div class="product-box">												
-														<a href="product_detail.html"><img alt="" src="themes/images/cloth/laptop4.png"></a><br/>
-														<a href="product_detail.html"  class="title">Asus VivoBook 320</a><br/>
+														<a href="product_detail"><img alt="" src="themes/images/cloth/laptop4.png"></a><br/>
+														<a href="product_detail"  class="title">Asus VivoBook 320</a><br/>
 														<a href="#" class="category">N3350/2GB/500GB/Win10</a>
 														<p class="price">10.490.000đ</p>
 													</div>
@@ -235,8 +235,8 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>												
-														<a href="product_detail.html"><img alt="" src="themes/images/cloth/laptop3.png"></a><br/>
-														<a href="product_detail.html" class="title">Asus X541UA</a><br/>
+														<a href="product_detail"><img alt="" src="themes/images/cloth/laptop3.png"></a><br/>
+														<a href="product_detail" class="title">Asus X541UA</a><br/>
 														<a href="#" class="category">i3 6100U/4GB/1TB/15.6"/Win10</a>
 														<p class="price">9.990.000đ</p>
 													</div>
@@ -262,8 +262,8 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>												
-														<a href="product_detail.html"><img alt="" src="themes/images/cloth/laptop1.png"></a><br/>
-														<a href="product_detail.html" class="title">Asus Swift SF315</a><br/>
+														<a href="product_detail"><img alt="" src="themes/images/cloth/laptop1.png"></a><br/>
+														<a href="product_detail" class="title">Asus Swift SF315</a><br/>
 														<a href="#" class="category">i5 8250U/4GB/1TB/Win10</a>
 														<p class="price">16.990.000đ</p>
 													</div>
@@ -271,16 +271,16 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>												
-														<a href="product_detail.html"><img alt="" src="themes/images/cloth/laptop3.png"></a><br/>
-														<a href="product_detail.html" class="title">Asus Vostro 5468</a><br/>
+														<a href="product_detail"><img alt="" src="themes/images/cloth/laptop3.png"></a><br/>
+														<a href="product_detail" class="title">Asus Vostro 5468</a><br/>
 														<a href="#" class="category">Core i5 - 7200U/4GB/500GB/14 HD</a>
 														<p class="price">16.690.000đ</p>
 													</div>
 												</li>       
 												<li class="span3">
 													<div class="product-box">												
-														<a href="product_detail.html"><img alt="" src="themes/images/cloth/laptop4.png"></a><br/>
-														<a href="product_detail.html" class="title">Asus S510UA</a><br/>
+														<a href="product_detail"><img alt="" src="themes/images/cloth/laptop4.png"></a><br/>
+														<a href="product_detail" class="title">Asus S510UA</a><br/>
 														<a href="#" class="category">i5 8250U/4GB/1TB/Win10</a>
 														<p class="price">16.290.000đ</p>
 													</div>
@@ -292,16 +292,16 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>												
-														<a href="product_detail.html"><img alt="" src="themes/images/cloth/laptop2.jpg"></a><br/>
-														<a href="product_detail.html" class="title">Asus ES1</a><br/>
+														<a href="product_detail"><img alt="" src="themes/images/cloth/laptop2.jpg"></a><br/>
+														<a href="product_detail" class="title">Asus ES1</a><br/>
 														<a href="#" class="category">N3350/2GB/500GB/Win10</a>
 														<p class="price">6.290.000đ</p>
 													</div>
 												</li>       
 												<li class="span3">
 													<div class="product-box">												
-														<a href="product_detail.html"><img alt="" src="themes/images/cloth/laptop4.png"></a><br/>
-														<a href="product_detail.html"  class="title">Asus IdeaPad 320</a><br/>
+														<a href="product_detail"><img alt="" src="themes/images/cloth/laptop4.png"></a><br/>
+														<a href="product_detail"  class="title">Asus IdeaPad 320</a><br/>
 														<a href="#" class="category">N3350/2GB/500GB/Win10</a>
 														<p class="price">10.490.000đ</p>
 													</div>
@@ -309,8 +309,8 @@
 												<li class="span3">
 													<div class="product-box">
 														<span class="sale_tag"></span>												
-														<a href="product_detail.html"><img alt="" src="themes/images/cloth/laptop3.png"></a><br/>
-														<a href="product_detail.html" class="title">Asus X541UA</a><br/>
+														<a href="product_detail"><img alt="" src="themes/images/cloth/laptop3.png"></a><br/>
+														<a href="product_detail" class="title">Asus X541UA</a><br/>
 														<a href="#" class="category">i3 6100U/4GB/1TB/15.6"/Win10</a>
 														<p class="price">9.990.000đ</p>
 													</div>
@@ -326,21 +326,21 @@
 						<div class="block">	
 							<ul class="nav nav-list">
 								<li class="nav-header">Danh mục</li>
-								<li><a href="products.html">Sản phẩm bán chạy</a></li>
-								<li ><a href="products.html">Laptop 2 trong 1</a></li>
-								<li><a href="products.html">Cao cấp sang trọng</a></li>
-								<li><a href="products.html">Học tập văn phòng</a></li>
-								<li><a href="products.html">Đồ họa kỹ thuật</a></li>
-								<li><a href="products.html">Gaming</a></li>
+								<li><a href="products">Sản phẩm bán chạy</a></li>
+								<li ><a href="products">Laptop 2 trong 1</a></li>
+								<li><a href="products">Cao cấp sang trọng</a></li>
+								<li><a href="products">Học tập văn phòng</a></li>
+								<li><a href="products">Đồ họa kỹ thuật</a></li>
+								<li><a href="products">Gaming</a></li>
 							</ul>
 							<br/>
 							<ul class="nav nav-list below">
 								<li class="nav-header">Nhãn hiệu</li>
-								<li><a href="products.html">HP</a></li>
-								<li><a href="products.html">Apple</a></li>
-								<li><a href="products.html">Asus</a></li>
-								<li><a href="products.html">Dell</a></li>
-								<li><a href="products.html">Lenovo</a></li>
+								<li><a href="products">HP</a></li>
+								<li><a href="products">Apple</a></li>
+								<li><a href="products">Asus</a></li>
+								<li><a href="products">Dell</a></li>
+								<li><a href="products">Lenovo</a></li>
 							</ul>
 						</div>
 						<div class="block">
@@ -357,8 +357,8 @@
 											<li class="span3">
 												<div class="product-box">
 													<span class="sale_tag"></span>												
-													<a href="product_detail.html"><img alt="" src="themes/images/cloth/laptop2.jpg"></a><br/>
-													<a href="product_detail.html" class="title">Lenovo IdeaPad 320</a><br/>
+													<a href="product_detail"><img alt="" src="themes/images/cloth/laptop2.jpg"></a><br/>
+													<a href="product_detail" class="title">Lenovo IdeaPad 320</a><br/>
 													<a href="#" class="category">7130U/4GB/128GB/Win10</a>
 													<p class="price">10.490.000đ</p>
 												</div>
@@ -369,8 +369,8 @@
 										<ul class="thumbnails listing-products">
 											<li class="span3">
 												<div class="product-box">												
-													<a href="product_detail.html"><img alt="" src="themes/images/cloth/laptop4.png"></a><br/>
-													<a href="product_detail.html" class="title">Lenovo IdeaPad 320</a><br/>
+													<a href="product_detail"><img alt="" src="themes/images/cloth/laptop4.png"></a><br/>
+													<a href="product_detail" class="title">Lenovo IdeaPad 320</a><br/>
 													<a href="#" class="category">6006U/4GB/1TB/Win10</a>
 													<p class="price">9.600.000đ</p>
 												</div>
@@ -411,11 +411,11 @@
 					<div class="span3">
 						<h4>Điều Hướng</h4>
 						<ul class="nav">
-							<li><a href="./index.html">Trang chủ</a></li>  
-							<li><a href="./about.html">Thông tin</a></li>
-							<li><a href="./contact.html">Liên hệ</a></li>
-							<li><a href="./cart.html">Giỏ hàng</a></li>
-							<li><a href="./register.html">Đăng nhập</a></li>							
+							<li><a href="/index">Trang chủ</a></li>  
+							<li><a href="/about">Thông tin</a></li>
+							<li><a href="/contact">Liên hệ</a></li>
+							<li><a href="/cart">Giỏ hàng</a></li>
+							<li><a href="/register">Đăng nhập</a></li>							
 						</ul>					
 					</div>
 					<div class="span4">

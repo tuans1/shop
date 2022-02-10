@@ -66,7 +66,7 @@
 				</div>
 <!--heder end here-->
 		<ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index1.html">Trang chủ</a><i class="fa fa-angle-right"></i>Loại sản phẩm</li>
+                <li class="breadcrumb-item"><a href="index1">Trang chủ</a><i class="fa fa-angle-right"></i>Quản lý nhà sản xuất</li>
             </ol>
 
 <!-- grids -->
@@ -83,7 +83,7 @@
  -->								
  					<div class="agile-tables">
 					<div class="w3l-table-info">
-					  <h2>Thêm loại sản phẩm</h2>
+					  <h2>Thêm nhà sản xuất</h2>
 					  <div class="row">
 					  	<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
 					  		
@@ -91,27 +91,27 @@
 					  	<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
 					  		<form action="">
 								<div class="form-group">
-							  <label for="ma">Mã loại sản phẩm:</label>
+							  <label for="ma">Mã nhà sản xuất:</label>
 							  <input type="text" class="form-control" id="ma">
 							</div>
 							<div class="form-group">
-							  <label for="ten">Tên loại sản phẩm:</label>
+							  <label for="ten">Tên nhà sản xuất:</label>
 							  <input type="text" class="form-control" id="ten">
 							</div>
 							
-							<button type="submit" class="btn btn-default">Thêm loại sản phẩm</button>
+							<button type="submit" class="btn btn-default">Thêm nhà sản xuất</button>
 							</form>
 					  	</div>
 					  	<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
 					  		
 					  	</div>
 					  </div>
-					  <h2>Cập nhật loại sản phẩm</h2>
+					  <h2>Cập nhật nhà sản xuất</h2>
 					    <table id="table">
 						<thead >
 						  <tr >
-							<th>Mã loại sản phẩm</th>
-							<th>Tên loại sản phẩm</th>
+							<th>Mã nhà sản xuất</th>
+							<th>Tên nhà sản xuất</th>
 							
 							<th>Chỉnh sửa</th>
 						  </tr>
@@ -119,7 +119,7 @@
 						<tbody>
 						   <tr class="info">
 							<td>1</td>
-							<td>Học tập văn phòng</td>
+							<td>DELL</td>
 							
 							<td style="text-align: center;">
 							<span >
@@ -133,7 +133,7 @@
 						  </tr>
 						  <tr class="info">
 							<td>2</td>
-							<td>Cao cấp sang trọng</td>
+							<td>ASUS</td>
 							
 							<td style="text-align: center;">
 							<span >
@@ -147,7 +147,7 @@
 						  </tr>
 						  <tr class="info">
 							<td>3</td>
-							<td>Chơi game</td>
+							<td>HP</td>
 							
 							<td style="text-align: center;">
 							<span >
@@ -161,7 +161,7 @@
 						  </tr>
 						  <tr class="info">
 							<td>4</td>
-							<td>Đồ họa kĩ thuật</td>
+							<td>APPLE</td>
 							
 							<td style="text-align: center;">
 							<span >
@@ -173,7 +173,20 @@
 			
 							</td>
 						  </tr>
-	
+							<tr class="info">
+							<td>5</td>
+							<td>LENOVO</td>
+							
+							<td style="text-align: center;">
+							<span >
+								<a class="agile-icon" href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-pencil-square-o"></i></a>
+							</span> 
+							<span>
+								<a class="agile-icon" href="#" data-toggle="modal" data-target="#myModal1"><i class="fa fa-times-circle"></i></a>
+							</span>
+			
+							</td>
+						  </tr>
 						  
 						</tbody>
 					  </table>
@@ -187,21 +200,21 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Cập nhật thông tin loại sản phẩm</h4>
+          <h4 class="modal-title">Cập nhật thông tin nhà sản xuất</h4>
         </div>
         <div class="modal-body">
-          <p>Mời bạn nhập thông tin loại sản phẩm: </p>
+          <p>Mời bạn nhập thông tin nhà sản xuất: </p>
 			<form action="">
 								<div class="form-group">
-							  <label for="ma">Mã loại sản phẩm:</label>
+							  <label for="ma">Mã nhà sản xuất:</label>
 							  <input type="text" class="form-control" id="ma">
 							</div>
 							<div class="form-group">
-							  <label for="ten">Tên loại sản phẩm:</label>
+							  <label for="ten">Tên nhà sản xuất:</label>
 							  <input type="text" class="form-control" id="ten">
 							</div>
 							
-							<button type="submit" class="btn btn-default">Thêm loại sản phẩm</button>
+							<button type="submit" class="btn btn-default">Thêm nhà sản xuất</button>
 							</form>
         </div>
         <div class="modal-footer">
@@ -298,26 +311,26 @@
 						<div style="border-top:1px ridge rgba(255, 255, 255, 0.15)"></div>
                            <div class="menu">
 									<ul id="menu" >
-										<li><a href="index1.html"><i class="fa fa-tachometer"></i> <span>Trang chủ</span><div class="clearfix"></div></a></li>
+										<li><a href="index1"><i class="fa fa-tachometer"></i> <span>Trang chủ</span><div class="clearfix"></div></a></li>
 										
 										
-										 <li id="menu-academico" ><a href="donhang.html"><i class="fa fa-envelope nav_icon"></i><span>Đơn hàng</span><div class="clearfix"></div></a></li>
-									<!-- <li><a href="gallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i><span>Gallery</span><div class="clearfix"></div></a></li> -->
+										 <li id="menu-academico" ><a href="donhang"><i class="fa fa-envelope nav_icon"></i><span>Đơn hàng</span><div class="clearfix"></div></a></li>
+									<!-- <li><a href="gallery"><i class="fa fa-picture-o" aria-hidden="true"></i><span>Gallery</span><div class="clearfix"></div></a></li> -->
 									
 									 <li id="menu-academico" ><a href="#"><i class="fa fa-list-ul" aria-hidden="true"></i><span>Sản phẩm</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
 										   <ul id="menu-academico-sub" >
-										   <li id="menu-academico-avaliacoes" ><a href="sanpham.html">Quản lý sản phẩm</a></li>
-											<li id="menu-academico-avaliacoes" ><a href="sanpham1.html">Loại sản phẩm</a></li>
-											<li id="menu-academico-avaliacoes" ><a href="sanpham2.html">Nhà sản xuất</a></li>
+										   <li id="menu-academico-avaliacoes" ><a href="sanpham">Quản lý sản phẩm</a></li>
+											<li id="menu-academico-avaliacoes" ><a href="sanpham1">Loại sản phẩm</a></li>
+											<li id="menu-academico-avaliacoes" ><a href="sanpham2">Nhà sản xuất</a></li>
 										  </ul>
 										</li>
 									
 
 									  <li id="menu-academico" ><a href="#"><i class="fa fa-file-text-o"></i>  <span>Khác</span> <span class="fa fa-angle-right" style="float: right"></span><div class="clearfix"></div></a>
 										 <ul id="menu-academico-sub" >
-											<li id="menu-academico-boletim" ><a href="calendar.html">Lịch</a></li>
-											<!-- <li id="menu-academico-avaliacoes" ><a href="signin.html">Đăng nhập</a></li>
-											<li id="menu-academico-avaliacoes" ><a href="signup.html">Đăng ký</a></li> -->
+											<li id="menu-academico-boletim" ><a href="calendar">Lịch</a></li>
+											<!-- <li id="menu-academico-avaliacoes" ><a href="signin">Đăng nhập</a></li>
+											<li id="menu-academico-avaliacoes" ><a href="signup">Đăng ký</a></li> -->
 											
 
 										  </ul>

@@ -49,9 +49,9 @@
 					<div class="account pull-right">
 						<ul class="user-menu">				
 							<li><a href="#">Tài khoản</a></li>
-							<li><a href="cart.html">Giỏ hàng</a></li>
-							<li><a href="checkout.html">Thanh toán</a></li>					
-							<li><a href="register.html">Đăng nhập</a></li>		
+							<li><a href="cart">Giỏ hàng</a></li>
+							<li><a href="checkout">Thanh toán</a></li>					
+							<li><a href="register">Đăng nhập</a></li>		
 						</ul>
 					</div>
 				</div>
@@ -60,32 +60,32 @@
 		<div id="wrapper" class="container">
 			<section class="navbar main-menu">
 				<div class="navbar-inner main-menu">				
-					<a href="index.html" class="logo pull-left"><h4 class="title">ILAPTOP </h4></a>
+					<a href="index" class="logo pull-left"><h4 class="title">ILAPTOP </h4></a>
 					<nav id="menu" class="pull-right">
 						<ul>
-							<li><a href="./products.html">Hãng sản xuất</a>					
+							<li><a href="/products">Hãng sản xuất</a>					
 								<ul>
-									<li><a href="./products.html">Apple</a></li>									
-									<li><a href="./products.html">Dell</a></li>
-									<li><a href="./products.html">Asus</a></li>	
-									<li><a href="./products.html">HP</a></li>									
-									<li><a href="./products.html">Acer</a></li>
-									<li><a href="./products.html">Lenovo</a></li>									
+									<li><a href="/products">Apple</a></li>									
+									<li><a href="/products">Dell</a></li>
+									<li><a href="/products">Asus</a></li>	
+									<li><a href="/products">HP</a></li>									
+									<li><a href="/products">Acer</a></li>
+									<li><a href="/products">Lenovo</a></li>									
 								</ul>
 							</li>															
 							
-							<li><a href="./products.html">Loại sản phẩm</a>
+							<li><a href="/products">Loại sản phẩm</a>
 								<ul>									
-									<li><a href="./products.html">Chơi game</a></li>
-									<li><a href="./products.html">Học tập-văn phòng</a></li>
-									<li><a href="./products.html">Đồ họa-kỹ thuật</a></li>
-									<li><a href="./products.html">Cao cấp sang trọng</a></li>
+									<li><a href="/products">Chơi game</a></li>
+									<li><a href="/products">Học tập-văn phòng</a></li>
+									<li><a href="/products">Đồ họa-kỹ thuật</a></li>
+									<li><a href="/products">Cao cấp sang trọng</a></li>
 								</ul>
 							</li>			
-							<!-- <li><a href="./products.html">Man</a></li>						
-								<li><a href="./products.html">Hangbag</a></li> -->
-								<li><a href="./products.html">Bán chạy nhất</a></li>
-								<li><a href="./products.html">Sản phẩm mới</a></li>
+							<!-- <li><a href="/products">Man</a></li>						
+								<li><a href="/products">Hangbag</a></li> -->
+								<li><a href="/products">Bán chạy nhất</a></li>
+								<li><a href="/products">Sản phẩm mới</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -135,16 +135,16 @@
 					<li class="span3">
 						<div class="product-box">
 							<span class="sale_tag"></span>												
-							<a href="product_detail.html"><img alt="" src="themes/images/cloth/anh1.png"></a><br/>
-							<a href="product_detail.html" class="title">Asus K45A-VX229 (K45A-3CVX)</a><br/>
+							<a href="product_detail"><img alt="" src="themes/images/cloth/anh1.png"></a><br/>
+							<a href="product_detail" class="title">Asus K45A-VX229 (K45A-3CVX)</a><br/>
 							<a href="#" class="category">Core i5 - 7200U/4GB/500GB/14 HD</a>
 							<p class="price">11.000.000 đ</p>
 						</div>
 					</li>       
 					<li class="span3">
 						<div class="product-box">												
-							<a href="product_detail.html"><img alt="" src="themes/images/cloth/anh2.png"></a><br/>
-							<a href="product_detail.html" class="title">Dell Vostro 2420 (V522412)</a><br/>
+							<a href="product_detail"><img alt="" src="themes/images/cloth/anh2.png"></a><br/>
+							<a href="product_detail" class="title">Dell Vostro 2420 (V522412)</a><br/>
 							<a href="#" class="category">i5 8250U/4GB/1TB/Win10</a>
 							<p class="price">12.679.000 đ</p>
 						</div>
@@ -152,8 +152,8 @@
 					<li class="span3">
 						<div class="product-box">
 							<span class="sale_tag"></span>												
-							<a href="product_detail.html"><img alt="" src="themes/images/cloth/anh3.png"></a><br/>
-							<a href="product_detail.html" class="title">HP Stream 14-ax000na 14-inch HD</a><br/>
+							<a href="product_detail"><img alt="" src="themes/images/cloth/anh3.png"></a><br/>
+							<a href="product_detail" class="title">HP Stream 14-ax000na 14-inch HD</a><br/>
 							<a href="#" class="category">intel Core i3, RAM 4GB DDR4</a>
 							<p class="price">15.679.000 đ</p>
 						</div>
@@ -161,48 +161,48 @@
 					<li class="span3">
 						<div class="product-box">												
 							<span class="sale_tag"></span>
-							<a href="product_detail.html"><img alt="" src="themes/images/cloth/anh4.png"></a><br/>
-							<a href="product_detail.html" class="title">Acer Chromebook R11 CB5-132T 11.6-Inch</a><br/>
+							<a href="product_detail"><img alt="" src="themes/images/cloth/anh4.png"></a><br/>
+							<a href="product_detail" class="title">Acer Chromebook R11 CB5-132T 11.6-Inch</a><br/>
 							<a href="#" class="category">i5 8250U/4GB/1TB/Win10</a>
 							<p class="price">16.500.000 đ</p>
 						</div>
 					</li>
 					<li class="span3">
 						<div class="product-box">                                        												
-							<a href="product_detail.html"><img alt="" src="themes/images/cloth/anh5.png"></a><br/>
-							<a href="product_detail.html" class="title">Asus K45A-VX229 (K45A-3CVX)</a><br/>
+							<a href="product_detail"><img alt="" src="themes/images/cloth/anh5.png"></a><br/>
+							<a href="product_detail" class="title">Asus K45A-VX229 (K45A-3CVX)</a><br/>
 							<a href="#" class="category">N3350/2GB/500GB/Win10</a>
 							<p class="price">11.000.000 đ</p>
 						</div>
 					</li>       
 					<li class="span3">
 						<div class="product-box">												
-							<a href="product_detail.html"><img alt="" src="themes/images/cloth/anh6.png""></a><br/>
-							<a href="product_detail.html" class="title">Dell Vostro 2420 (V522412)</a><br/>
+							<a href="product_detail"><img alt="" src="themes/images/cloth/anh6.png""></a><br/>
+							<a href="product_detail" class="title">Dell Vostro 2420 (V522412)</a><br/>
 							<a href="#" class="category">Intel Core i3-i5/RAM 4GB</a>
 							<p class="price">12.679.000 đ</p>
 						</div>
 					</li>
 					<li class="span3">
 						<div class="product-box">												
-							<a href="product_detail.html"><img alt="" src="themes/images/cloth/anh7.png"></a><br/>
-							<a href="product_detail.html" class="title">ROG GL553VE</a><br/>
+							<a href="product_detail"><img alt="" src="themes/images/cloth/anh7.png"></a><br/>
+							<a href="product_detail" class="title">ROG GL553VE</a><br/>
 							<a href="#" class="category">Intel Core i7-7700HQ/ 8/16GB RAM/1TB HDD/GTX 1050 Ti 4GB</a>
 							<p class="price">27.490.000 đ</p>
 						</div>
 					</li>
 					<li class="span3">
 						<div class="product-box">												
-							<a href="product_detail.html"><img alt="" src="themes/images/cloth/anh8.png"></a><br/>
-							<a href="product_detail.html" class="title">ROG ZENPHYRUS(GX501)</a><br/>
+							<a href="product_detail"><img alt="" src="themes/images/cloth/anh8.png"></a><br/>
+							<a href="product_detail" class="title">ROG ZENPHYRUS(GX501)</a><br/>
 							<a href="#" class="category">Intel Core i7-7700HQ/24GB RAM/1TB SSD PCie</a>
 							<p class="price">16.500.000 đ</p>
 						</div>
 					</li>
 					<li class="span3">
 						<div class="product-box">												
-							<a href="product_detail.html"><img alt="" src="themes/images/cloth/anh9.png"></a><br/>
-							<a href="product_detail.html" class="title">Acer Chromebook R11 CB5-132T 11.6-Inch</a><br/>
+							<a href="product_detail"><img alt="" src="themes/images/cloth/anh9.png"></a><br/>
+							<a href="product_detail" class="title">Acer Chromebook R11 CB5-132T 11.6-Inch</a><br/>
 							<a href="#" class="category">Intel Core i5-7200U/8GB RAM</a>
 							<p class="price">15.800.000 đ</p>
 						</div>
@@ -211,12 +211,12 @@
 				<hr>
 				<div class="pagination pagination-small pagination-centered">
 					<ul>
-						<li><a href="products.html" aria-label="Previous">
+						<li><a href="products" aria-label="Previous">
 							<span aria-hidden="true">&laquo;</span>
 							<span>Prev</span>
 						</a>
 					</li>
-					<li><a href="products.html">1</a></li>
+					<li><a href="products">1</a></li>
 					<li class="active"><a href="#">2</a></li>
 					<li><a href="#" aria-label="Next">
 						<span>Next</span>
@@ -390,8 +390,8 @@
 							<li class="span3">
 								<div class="product-box">
 									<span class="sale_tag"></span>												
-									<a href="product_detail.html"><img alt="" src="themes/images/cloth/laptop2.jpg"></a><br/>
-									<a href="product_detail.html" class="title">Lenovo IdeaPad 320</a><br/>
+									<a href="product_detail"><img alt="" src="themes/images/cloth/laptop2.jpg"></a><br/>
+									<a href="product_detail" class="title">Lenovo IdeaPad 320</a><br/>
 									<a href="#" class="category">7130U/4GB/128GB/Win10</a>
 									<p class="price">10.490.000đ</p>
 								</div>
@@ -402,8 +402,8 @@
 						<ul class="thumbnails listing-products">
 							<li class="span3">
 								<div class="product-box">												
-									<a href="product_detail.html"><img alt="" src="themes/images/cloth/laptop4.png"></a><br/>
-									<a href="product_detail.html" class="title">Lenovo IdeaPad 320</a><br/>
+									<a href="product_detail"><img alt="" src="themes/images/cloth/laptop4.png"></a><br/>
+									<a href="product_detail" class="title">Lenovo IdeaPad 320</a><br/>
 									<a href="#" class="category">6006U/4GB/1TB/Win10</a>
 									<p class="price">9.600.000đ</p>
 								</div>
@@ -425,11 +425,11 @@
 		<div class="span3">
 			<h4>Điều Hướng</h4>
 			<ul class="nav">
-				<li><a href="./index.html">Trang chủ</a></li>  
-				<li><a href="./about.html">Thông tin</a></li>
-				<li><a href="./contact.html">Liên hệ</a></li>
-				<li><a href="./cart.html">Giỏ hàng</a></li>
-				<li><a href="./register.html">Đăng nhập</a></li>							
+				<li><a href="/index">Trang chủ</a></li>  
+				<li><a href="/about">Thông tin</a></li>
+				<li><a href="/contact">Liên hệ</a></li>
+				<li><a href="/cart">Giỏ hàng</a></li>
+				<li><a href="/register">Đăng nhập</a></li>							
 			</ul>					
 		</div>
 		<div class="span4">
