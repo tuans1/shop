@@ -2,26 +2,21 @@
 
 namespace App\Http\Controllers;
 
-use App\Exports\IncomeExport;
-use App\Services\IncomeService;
-use App\Services\StoreService;
-use DateTime;
+use App\Models\Product;
+use App\Services\ProductService;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Facades\Validator;
-use Maatwebsite\Excel\Facades\Excel;
+use Illuminate\Support\Facades\Redirect;
 
-class InComeController extends Controller
+class ProductController extends Controller
 {
 
-    // protected $incomeService;
-    // protected $storeService;
-    // public function __construct(IncomeService $incomeService, StoreService $storeService)
-    // {
-    //     $this->incomeService = $incomeService;
-    //     $this->storeService = $storeService;
-    // }
+    protected $productService;
+    public function __construct(ProductService $productService)
+    {
+        $this->productService = $productService;
+    }
 
     /**
      * @param store : lấy cửa hàng hiện tại
@@ -29,8 +24,8 @@ class InComeController extends Controller
      */
     public function index()
     {
-        $store = $this->storeService->getById(session('idStore'));
-        return  view('income-expense.income', ['store' => $store]);
+        $products = Product::all();
+        return  view('sanpham', ["products" => $products]);
     }
 
     /**
@@ -38,17 +33,41 @@ class InComeController extends Controller
      * tìm kiếm từ ngày bắt đầu và ngày kết thúc
      * @return returnHTML : view mới cập nhật
      */
-    public function search(Request $request)
+    public function create(Request $request)
     {
         try {
             //gán view table
             // $returnHTML = view('income-expense.table', ['list' => $list])->render();
-            return response()->json("returnHTML");
+            $data = $request->all();
+            Product::create($data);
+            redirect()->back()->with('success', 'Thêm sản phẩm thành công')->compact("");
         } catch (Exception $e) {
-            Log::error($e);
-            return response()->json("Error", 500);
+            echo $e;
         }
     }
+
+    public function update(Request $request)
+    {
+        try {
+            //gán view table
+            // $returnHTML = view('income-expense.table', ['list' => $list])->render();
+            $data = $request->all();
+            $product = Product::find($data['id']);
+            $product->description = $data['description'];
+            $product->origin = $data['origin']; //
+            $product->name = $data['name'];
+            $product->category_id = $data['category_id'];
+            $product->producer_id = $data['producer_id'];
+            $product->price = $data['price'];
+            // $product->status = $data['status'];
+            $product->code = $data['code'];
+            $product->save();
+            return Redirect::back()->with('success', 'Cập nhật sản phẩm thành công');
+        } catch (Exception $e) {
+            return Redirect::back()->with('success', 'Cập nhật sản phẩm thất bại');
+        }
+    }
+
     /**
      * Xóa dựa theo ID
      * @return message

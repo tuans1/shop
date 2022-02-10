@@ -1,9 +1,7 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Services;
 
 class ProductService{
     
 }
-
-?>

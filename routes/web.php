@@ -1,7 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ProducerController;
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\OrderController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,9 +17,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [HomeController::class, 'index']);
+Route::get('/sanpham', [ProductController::class, 'index']); // hiển thị sản phẩm , chạy hàm index trong ProductController
+Route::post('/sanpham/create', [ProductController::class, 'create'])->name('create'); // chạy hàm create trong ProductController
+Route::post('/sanpham/update', [ProductController::class, 'update'])->name('update'); // chạy hàm update trong ProductController
+
+Route::get('/sanpham1', [CategoryController::class, 'index']); // loai sp
+Route::get('/sanpham2', [ProducerController::class, 'index']); // hang sx
+
 Route::get('/index', function () {
     return view('index');
 });
@@ -76,16 +85,4 @@ Route::get('/products', function () {
 //register
 Route::get('/register', function () {
     return view('register');
-});
-//sanpham
-Route::get('/sanpham', function () {
-    return view('sanpham');
-});
-//sanpham1
-Route::get('/sanpham1', function () {
-    return view('sanpham1');
-});
-//sanpham2
-Route::get('/sanpham2', function () {
-    return view('sanpham2');
 });
