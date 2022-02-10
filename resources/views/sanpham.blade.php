@@ -125,11 +125,19 @@
 
 														<div class="form-group">
 															<label for="loai">Loại:</label>
-															<input type="textarea" class="form-control" name="category_id" id="type">
+															<select class="form-select" name="category_id" aria-label="Default select example">
+																@foreach($categories as $category)
+																<option value="{{$category->id}}">{{$category->category_name}}</option>
+																@endforeach
+															</select>
 														</div>
 														<div class="form-group">
 															<label for="nsx">Nhà sản xuất:</label>
-															<input type="text" class="form-control" name="producer_id" id="producer">
+															<select class="form-select" name="producer_id" aria-label="Default select example">
+																@foreach($producers as $producer)
+																<option value="{{$producer->id}}">{{$producer->producer_name}}</option>
+																@endforeach
+															</select>
 														</div>
 														<div class="form-group">
 															<label for="gia">Giá bán:</label>
@@ -163,21 +171,21 @@
 												</thead>
 												<tbody>
 													@foreach($products as $product)
-													<tr class="info" id="{{$product->id}}" data-product='<?php echo $product; ?>'>
-														<td>1</td>
+													<tr class="info" id="{{$product->id}}" data-product='<?php echo json_encode($product); ?>'>
+														<td>{{ $loop->index +1}}</td>
 														<td>{{$product->code}}</td>
 														<td>{{$product->name}}</td>
 														<td>{{$product->description}}</td>
 														<td>{{$product->price}}</td>
-														<td>{{$product->producer_id}}</td>
-														<td>{{$product->category_id}}</td>
+														<td>{{$product->producer_name}}</td>
+														<td>{{$product->category_name}}</td>
 														<td>{{$product->origin}}</td>
 														<td style="text-align: center;" class="xxx">
 															<span>
 																<a class="agile-icon" id="edit" href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-pencil-square-o"></i></a>
 															</span>
 															<span>
-																<a class="agile-icon" href="#" data-toggle="modal" data-target="#myModal1"><i class="fa fa-times-circle"></i></a>
+																<a class="agile-icon" id="delete" href="/sanpham/{{$product->id}}"><i class="fa fa-times-circle"></i></a>
 															</span>
 														</td>
 													</tr>
@@ -212,14 +220,21 @@
 																<label for="comment">Mô tả:</label>
 																<textarea class="form-control" rows="5" name="description" id="editDescription"></textarea>
 															</div>
-
 															<div class="form-group">
 																<label for="loai">Loại:</label>
-																<input type="textarea" class="form-control" name="category_id" id="editCategory">
+																<select class="form-select" id="category" name="category_id" aria-label="Default select example">
+																	@foreach($categories as $category)
+																	<option value="{{$category->id}}">{{$category->category_name}}</option>
+																	@endforeach
+																</select>
 															</div>
 															<div class="form-group">
 																<label for="nsx">Nhà sản xuất:</label>
-																<input type="text" class="form-control" name="producer_id" id="editProducer">
+																<select class="form-select" id="producer" name="producer_id" aria-label="Default select example">
+																	@foreach($producers as $producer)
+																	<option value="{{$producer->id}}">{{$producer->producer_name}}</option>
+																	@endforeach
+																</select>
 															</div>
 															<div class="form-group">
 																<label for="gia">Giá bán:</label>
@@ -291,14 +306,17 @@
 				<!--//photoday-section-->
 				<!-- script-for sticky-nav -->
 				<script>
+					$(document).on('click', '#delete', function() {
+						localStorage
+					})
 					$(document).on('click', '#edit', function() {
 						const value = $(this).closest('tr').data('product');
 						$('#editId').val(value.id);
 						$('#editCode').val(value.code)
 						$('#editName').val(value.name)
 						$('#editDescription').val(value.description)
-						$('#editCategory').val(value.category_id)
-						$('#editProducer').val(value.producer_id)
+						$('#category').val(value.category_id)
+						$('#producer').val(value.producer_id)
 						$('#editPrice').val(value.price)
 						$('#editOrigin').val(value.origin)
 					})

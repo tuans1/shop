@@ -19,6 +19,6 @@ class ProducerController extends Controller
      */
     public function index()
     {
-        return  view('sanpham');
+        return  view('sanpham2');
     }
 }
