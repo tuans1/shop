@@ -18,10 +18,7 @@ class ProductController extends Controller
         $this->productService = $productService;
     }
 
-    /**
-     * @param store : lấy cửa hàng hiện tại
-     * @return view kèm cửa hàng
-     */
+
     public function index()
     {
         $products = Product::all();
