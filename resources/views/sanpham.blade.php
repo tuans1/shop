@@ -154,7 +154,13 @@
 
 												</div>
 											</div>
-											<h2>Cập nhật sản phẩm</h2>
+											<select class="form-select" name="producer_id" aria-label="Default select example">
+												<option value="">Đơn Vị</option>
+												<option value="VND">VND</option>
+												<option value="USD">USD</option>
+												<option value="EUR">EUR</option>
+											</select>
+											<h2>Danh sách sản phẩm</h2>
 											<table id="table">
 												<thead>
 													<tr>
@@ -169,27 +175,8 @@
 														<th>Chỉnh sửa</th>
 													</tr>
 												</thead>
-												<tbody>
-													@foreach($products as $product)
-													<tr class="info" id="{{$product->id}}" data-product='<?php echo json_encode($product); ?>'>
-														<td>{{ $loop->index +1}}</td>
-														<td>{{$product->code}}</td>
-														<td>{{$product->name}}</td>
-														<td>{{$product->description}}</td>
-														<td>{{$product->price}}</td>
-														<td>{{$product->producer_name}}</td>
-														<td>{{$product->category_name}}</td>
-														<td>{{$product->origin}}</td>
-														<td style="text-align: center;" class="xxx">
-															<span>
-																<a class="agile-icon" id="edit" href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-pencil-square-o"></i></a>
-															</span>
-															<span>
-																<a class="agile-icon" id="delete" href="/sanpham/{{$product->id}}"><i class="fa fa-times-circle"></i></a>
-															</span>
-														</td>
-													</tr>
-													@endforeach
+												<tbody id="exampleid">
+													<!--  -->
 												</tbody>
 											</table>
 										</div>
@@ -306,19 +293,68 @@
 				<!--//photoday-section-->
 				<!-- script-for sticky-nav -->
 				<script>
-					$(document).on('click', '#delete', function() {
-						localStorage
+					$('select').on('change', function() {
+						localStorage.setItem('type', this.value);
+						location.reload();
+					});
+					$(document).ready(function() {
+						$.ajax({
+							type: "get",
+							url: '/sanpham/list',
+							data: {
+								_token: '{!! csrf_token() !!}',
+							},
+							beforeSend: function(handler) {},
+							complete: function(handler) {},
+							success: function(data) {
+								let rates = 0;
+								rates = localStorage.getItem('VND');
+								$.each(data.products, function(key, value) {
+									console.log(value);
+									$('#exampleid').append("<tr class=danger data-product =" + JSON.stringify(value) + " >\
+										<td>" + (key + 1) + "</td>\
+										<td>" + value.code + "</td>\
+										<td>" + value.name + "</td>\
+										<td>" + value.description + "</td>\
+										<td>" + (value.price / rates) + " " + localStorage.getItem('type') + "</td>\
+										<td>" + value.producer_name + "</td>\
+										<td>" + (value.category_name) + "</td>\
+										<td>" + (value.origin) + "</td>\
+										<td style=\"text-align: center;\"><a id=\"edit\" class=\"agile-icon\" href=\"#\" data-toggle=\"modal\" data-target=\"#myModal\"><i class=\"fa fa-pencil-square-o\"></i></a></td>\
+										</tr>");
+								})
+							},
+							error: function(err) {}
+						});
+						$.ajax({
+							type: "get",
+							url: 'https://open.er-api.com/v6/latest/' + localStorage.getItem('type'),
+							data: {
+								_token: '{!! csrf_token() !!}',
+							},
+							beforeSend: function(handler) {},
+							complete: function(handler) {},
+							success: function(data) {
+								localStorage.setItem('USD', data.rates.USD)
+								localStorage.setItem('EUR', data.rates.EUR)
+								localStorage.setItem('VND', data.rates.VND)
+							},
+							error: function(err) {}
+						});
 					})
+
+
 					$(document).on('click', '#edit', function() {
 						const value = $(this).closest('tr').data('product');
-						$('#editId').val(value.id);
-						$('#editCode').val(value.code)
-						$('#editName').val(value.name)
-						$('#editDescription').val(value.description)
-						$('#category').val(value.category_id)
-						$('#producer').val(value.producer_id)
-						$('#editPrice').val(value.price)
-						$('#editOrigin').val(value.origin)
+						console.log(value);
+						// $('#editId').val(value.id);
+						// $('#editCode').val(value.code)
+						// $('#editName').val(value.name)
+						// $('#editDescription').val(value.description)
+						// $('#category').val(value.category_id)
+						// $('#producer').val(value.producer_id)
+						// $('#editPrice').val(value.price)
+						// $('#editOrigin').val(value.origin)
 					})
 					$(document).ready(function() {
 						var navoffeset = $(".header-main").offset().top;
@@ -340,9 +376,7 @@
 				</div>
 				<!--inner block end here-->
 				<!--copy rights start here-->
-				<div class="copyrights">
-					<p>© 2018 N5QPT. All Rights Reserved Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
-				</div>
+
 				<!--COPY rights end here-->
 			</div>
 		</div>
@@ -395,11 +429,7 @@
 	</div>
 	<script>
 		var toggle = true;
-		$(document).ready(function() {
-			function showModal(value) {
-				console.log(value)
-			}
-		});
+
 		$(".sidebar-icon").click(function() {
 			console.log("RUn")
 			if (toggle) {

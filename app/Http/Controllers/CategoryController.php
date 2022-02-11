@@ -1,12 +1,14 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use App\Models\Category;
 use App\Services\ProductService;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Redirect;
+
 class CategoryController extends Controller
 {
     public function index()
@@ -39,4 +41,14 @@ class CategoryController extends Controller
             return Redirect::back()->with('success', 'Error');
         }
     }
+
+    public function list()
+    {
+        $category = Category::all();
+        return  response()->json(["categories" => $category]);
+    }
+    
 }
+
+
+

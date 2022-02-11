@@ -21,13 +21,17 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/sanpham', [ProductController::class, 'index']); // hiển thị sản phẩm , chạy hàm index trong ProductController
 Route::post('/sanpham/create', [ProductController::class, 'create'])->name('create'); // chạy hàm create trong ProductController
 Route::post('/sanpham/update', [ProductController::class, 'update'])->name('update'); // chạy hàm update trong ProductController
-Route::get('/sanpham/{id}', [ProductController::class, 'delete']);
+Route::get('/sanpham/list', [ProductController::class, 'list']);
 
 Route::get('/sanpham1', [CategoryController::class, 'index']); // loai sp
 Route::post('/sanpham1/create', [CategoryController::class, 'create']); // chạy hàm create trong ProductController
 Route::post('/sanpham1/update', [CategoryController::class, 'update']);
 Route::get('/sanpham2', [ProducerController::class, 'index']); // hang sx
 
+Route::get('/donhang/index', [OrderController::class, 'index']); // hang sx
+Route::get('/donhang', function () {
+    return view('donhang');
+});
 
 Route::get('/index', function () {
     return view('index');
@@ -58,9 +62,6 @@ Route::get('/customer', function () {
     return view('customer');
 });
 //donhang
-Route::get('/donhang', function () {
-    return view('donhang');
-});
 
 //index1
 Route::get('/index1', function () {

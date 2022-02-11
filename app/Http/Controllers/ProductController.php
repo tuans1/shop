@@ -24,14 +24,9 @@ class ProductController extends Controller
 
     public function index()
     {
-        $products = DB::table('products')
-            ->join('categories', 'products.category_id', '=', 'categories.id')
-            ->join('producers', 'products.producer_id', '=', 'producers.id')
-            ->select('*',)
-            ->get();
         $categories = Category::all();
         $producer = Producer::all();
-        return  view('sanpham', ["products" => $products, "categories" => $categories, "producers" => $producer]);
+        return  view('sanpham', ["categories" => $categories, "producers" => $producer]);
     }
 
 
@@ -62,7 +57,8 @@ class ProductController extends Controller
             $product->save();
             return Redirect::back()->with('success', 'Cập nhật sản phẩm thành công');
         } catch (Exception $e) {
-            return Redirect::back()->with('success', 'Error');
+            echo $e;
+            // return Redirect::back()->with('success', 'Error');
         }
     }
 
@@ -76,5 +72,16 @@ class ProductController extends Controller
             Log::error($e);
             return response()->json("Error", 500);
         }
+    }
+
+
+    public function list()
+    {
+        $products = DB::table('products')
+            ->join('categories', 'products.category_id', '=', 'categories.id')
+            ->join('producers', 'products.producer_id', '=', 'producers.id')
+            ->select('*',)
+            ->get();
+        return  response()->json(["products" => $products]);
     }
 }
